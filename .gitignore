@@ -1,2 +1,13 @@
-*~
 build/
+_build/
+obj-*/
+debian/.debhelper/
+debian/elementary-screenshot/
+debian/files
+debian/*.substvars
+debian/*.log
+debian/debhelper-build-stamp
+*.deb
+*.ddeb
+*.buildinfo
+*.changes

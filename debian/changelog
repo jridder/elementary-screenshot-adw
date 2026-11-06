@@ -1,0 +1,5 @@
+elementary-screenshot (8.0.1-100adw1) stonking; urgency=medium
+
+  * Port from Granite to libadwaita; packaged for Ubuntu 26.10.
+
+ -- Jeff <jridder@gmail.com>  Fri, 06 Nov 2026 09:45:00 -0700

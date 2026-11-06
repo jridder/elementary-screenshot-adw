@@ -1,0 +1,509 @@
+From 7b6a1c47d9da0dd9134a7552a4b4a55f895f2ab5 Mon Sep 17 00:00:00 2001
+From: Jeff <jridder@gmail.com>
+Date: Wed, 30 Sep 2026 17:47:06 -0600
+Subject: [PATCH] Port from Granite to libadwaita
+
+- Adw.Application replaces Granite.init/Granite.Settings dark-mode handling
+- SaveDialog is now an Adw.Window with Adw.ToolbarView, EntryRow, ComboRow, ActionRow
+- Gtk.FileChooserNative -> Gtk.FileDialog, Gtk.ComboBoxText -> Adw.ComboRow
+- Granite.MessageDialog -> Adw.Window + Adw.StatusPage error dialog
+- Fall back to ~/Pictures when XDG Pictures dir is unset
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_011CoAKAmHz1EJYJVJko4uXZ
+---
+ meson.build          |   3 +-
+ src/Application.vala |  71 ++++++++----
+ src/SaveDialog.vala  | 260 ++++++++++++++++++++++++-------------------
+ 3 files changed, 195 insertions(+), 139 deletions(-)
+
+diff --git a/meson.build b/meson.build
+index e62edc7..2f0612a 100644
+--- a/meson.build
++++ b/meson.build
+@@ -9,7 +9,6 @@ i18n = import('i18n')
+ 
+ add_global_arguments(
+     '-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()),
+-    '-DHANDY_USE_UNSTABLE_API',
+     language:'c'
+ )
+ 
+@@ -42,7 +41,7 @@ executable(
+         dependency('glib-2.0'),
+         dependency('gobject-2.0'),
+         dependency('gtk4'),
+-        dependency('granite-7', version: '>=7.0.0'),
++        dependency('libadwaita-1', version: '>=1.4'),
+         dependency('libportal'),
+         meson.get_compiler('vala').find_library('posix'),
+     ],
+diff --git a/src/Application.vala b/src/Application.vala
+index ecc457b..febd06a 100755
+--- a/src/Application.vala
++++ b/src/Application.vala
+@@ -17,7 +17,7 @@
+ * Boston, MA 02110-1301 USA
+ */
+ 
+-public class Screenshot.Application : Gtk.Application {
++public class Screenshot.Application : Adw.Application {
+     public const string SAVE_FOLDER = _("Screenshots");
+ 
+     private static bool area = false;
+@@ -69,17 +69,6 @@ public class Screenshot.Application : Gtk.Application {
+     protected override void startup () {
+         base.startup ();
+ 
+-        Granite.init ();
+-
+-        var granite_settings = Granite.Settings.get_default ();
+-        var gtk_settings = Gtk.Settings.get_default ();
+-
+-        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == DARK;
+-
+-        granite_settings.notify["prefers-color-scheme"].connect (() => {
+-            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == DARK;
+-        });
+-
+         var quit_action = new SimpleAction ("quit", null);
+         quit_action.activate.connect (() => {
+             quit ();
+@@ -204,15 +193,55 @@ public class Screenshot.Application : Gtk.Application {
+     }
+ 
+     private void show_error_dialog (string error_message) {
+-        var dialog = new Granite.MessageDialog.with_image_from_icon_name (
+-             _("Could not capture screenshot"),
+-             _("Image not saved"),
+-             "dialog-error",
+-             Gtk.ButtonsType.CLOSE
+-        );
+-        dialog.set_application (this);
+-        dialog.show_error_details (error_message);
+-        dialog.response.connect (dialog.destroy);
++        var details = new Gtk.Label (error_message) {
++            selectable = true,
++            wrap = true,
++            wrap_mode = Pango.WrapMode.WORD_CHAR,
++            xalign = 0
++        };
++        details.add_css_class ("monospace");
++
++        var expander = new Gtk.Expander (_("Details")) {
++            child = details
++        };
++
++        var status = new Adw.StatusPage () {
++            icon_name = "dialog-error-symbolic",
++            title = _("Could not capture screenshot"),
++            description = _("Image not saved"),
++            child = expander
++        };
++        status.add_css_class ("compact");
++
++        var close_button = new Gtk.Button.with_label (_("Close")) {
++            halign = Gtk.Align.CENTER,
++            margin_bottom = 18
++        };
++        close_button.add_css_class ("pill");
++
++        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
++        box.append (status);
++        box.append (close_button);
++
++        var header = new Adw.HeaderBar () {
++            show_title = false
++        };
++
++        var toolbar_view = new Adw.ToolbarView () {
++            content = box
++        };
++        toolbar_view.add_top_bar (header);
++
++        var dialog = new Adw.Window () {
++            application = this,
++            content = toolbar_view,
++            default_width = 400,
++            modal = true,
++            resizable = false,
++            title = _("Could not capture screenshot")
++        };
++
++        close_button.clicked.connect (() => dialog.close ());
+         dialog.present ();
+     }
+ 
+diff --git a/src/SaveDialog.vala b/src/SaveDialog.vala
+index d1d9a64..0068ed6 100644
+--- a/src/SaveDialog.vala
++++ b/src/SaveDialog.vala
+@@ -20,14 +20,17 @@
+ *              Fabio Zaramella <ffabio.96.x@gmail.com>
+ */
+ 
+-public class Screenshot.SaveDialog : Granite.Dialog {
++public class Screenshot.SaveDialog : Adw.Window {
+     public Gdk.Pixbuf pixbuf { get; construct; }
+     public Settings settings { get; construct; }
+ 
+     public signal void save_response (bool response, string folder_dir, string output_name, string format);
+ 
+-    private Gtk.Label folder_name;
++    private const string[] FORMATS = { "png", "jpeg", "bmp", "tiff" };
++
++    private Adw.ActionRow location_row;
+     private Gtk.Image folder_image;
++    private string folder_dir;
+ 
+     public SaveDialog (Gdk.Pixbuf pixbuf, Settings settings) {
+         Object (
+@@ -40,8 +43,11 @@ public class Screenshot.SaveDialog : Granite.Dialog {
+     }
+ 
+     construct {
+-        var folder_dir = Environment.get_user_special_dir (UserDirectory.PICTURES)
+-            + "%c".printf (GLib.Path.DIR_SEPARATOR) + Application.SAVE_FOLDER;
++        var pictures_dir = Environment.get_user_special_dir (UserDirectory.PICTURES);
++        if (pictures_dir == null) {
++            pictures_dir = Path.build_filename (Environment.get_home_dir (), "Pictures");
++        }
++        folder_dir = Path.build_filename (pictures_dir, Application.SAVE_FOLDER);
+ 
+         var folder_from_settings = settings.get_string ("folder-dir");
+ 
+@@ -68,16 +74,12 @@ public class Screenshot.SaveDialog : Granite.Dialog {
+ 
+         var preview = new Gtk.Picture.for_paintable (Gdk.Texture.for_pixbuf (pixbuf)) {
+             height_request = 128,
+-            margin_top = 18,
+-            margin_bottom = 18
++            content_fit = Gtk.ContentFit.CONTAIN,
++            overflow = Gtk.Overflow.HIDDEN
+         };
+-        preview.add_css_class (Granite.STYLE_CLASS_CARD);
+-        preview.add_css_class (Granite.STYLE_CLASS_CHECKERBOARD);
+-        preview.add_css_class (Granite.STYLE_CLASS_ROUNDED);
++        preview.add_css_class ("card");
+         preview.add_controller (drag_source);
+ 
+-        var dialog_label = new Granite.HeaderLabel (_("Save Image as…"));
+-
+         var date_time = new GLib.DateTime.now_local ().format ("%Y-%m-%d %H.%M.%S");
+ 
+         /// TRANSLATORS: %s represents a timestamp here
+@@ -87,126 +89,135 @@ public class Screenshot.SaveDialog : Granite.Dialog {
+             file_name += "@%ix".printf (this.scale_factor);
+         }
+ 
+-        var name_label = new Granite.HeaderLabel (_("Name"));
++        var name_row = new Adw.EntryRow () {
++            title = _("Name"),
++            text = file_name,
++            activates_default = true
++        };
+ 
+-        var name_entry = new Granite.ValidatedEntry () {
+-            activates_default = true,
+-            hexpand = true,
+-            text = file_name
++        var format_row = new Adw.ComboRow () {
++            title = _("File Type"),
++            model = new Gtk.StringList (FORMATS)
+         };
+-        name_entry.grab_focus ();
++
++        var current_format = settings.get_string ("format");
++        for (uint i = 0; i < FORMATS.length; i++) {
++            if (FORMATS[i] == current_format) {
++                format_row.selected = i;
++                break;
++            }
++        }
++
++        folder_image = new Gtk.Image ();
++
++        var folder_button = new Gtk.Button.from_icon_name ("document-open-symbolic") {
++            tooltip_text = _("Select Screenshots Folder…"),
++            valign = Gtk.Align.CENTER
++        };
++        folder_button.add_css_class ("flat");
++
++        location_row = new Adw.ActionRow () {
++            title = _("Folder"),
++            activatable_widget = folder_button
++        };
++        location_row.add_prefix (folder_image);
++        location_row.add_suffix (folder_button);
++
++        update_location_row (folder_dir);
++
++        var group = new Adw.PreferencesGroup () {
++            title = _("Save Image as…")
++        };
++        group.add (name_row);
++        group.add (format_row);
++        group.add (location_row);
+ 
+         var validation_label = new Gtk.Label ("") {
+-            halign = Gtk.Align.END,
+-            justify = Gtk.Justification.RIGHT,
+-            max_width_chars = 55,
++            halign = Gtk.Align.START,
+             wrap = true,
+-            xalign = 1
++            xalign = 0
+         };
+-        validation_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+-        validation_label.add_css_class (Granite.STYLE_CLASS_ERROR);
++        validation_label.add_css_class ("caption");
++        validation_label.add_css_class ("error");
+ 
+         var name_message_revealer = new Gtk.Revealer () {
+             child = validation_label,
+-            transition_type = Gtk.RevealerTransitionType.CROSSFADE,
+-            margin_top = 3
++            transition_type = Gtk.RevealerTransitionType.CROSSFADE
+         };
+ 
+-        var format_label = new Granite.HeaderLabel (_("File Type"));
++        var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 18) {
++            margin_top = 12,
++            margin_bottom = 18,
++            margin_start = 18,
++            margin_end = 18
++        };
++        content.append (preview);
++        content.append (group);
++        content.append (name_message_revealer);
+ 
+-        var format_cmb = new Gtk.ComboBoxText ();
+-        format_cmb.append_text ("png");
+-        format_cmb.append_text ("jpeg");
+-        format_cmb.append_text ("bmp");
+-        format_cmb.append_text ("tiff");
++        var clipboard_btn = new Gtk.Button.with_label (_("Copy to Clipboard"));
+ 
+-        switch (settings.get_string ("format")) {
+-            case "png":
+-                format_cmb.active = 0;
+-                break;
+-            case "jpeg":
+-                format_cmb.active = 1;
+-                break;
+-            case "bmp":
+-                format_cmb.active = 2;
+-                break;
+-            case "tiff":
+-                format_cmb.active = 3;
+-                break;
+-        }
++        var retry_btn = new Gtk.Button.with_label (_("Cancel"));
+ 
+-        var location_label = new Granite.HeaderLabel (_("Folder")) {
+-            margin_top = 18
++        var save_btn = new Gtk.Button.with_label (_("Save")) {
++            receives_default = true
+         };
++        save_btn.add_css_class ("suggested-action");
+ 
+-        folder_name = new Gtk.Label ("") {
+-            halign = Gtk.Align.START,
++        var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
++            margin_top = 6,
++            margin_bottom = 12,
++            margin_start = 18,
++            margin_end = 18
++        };
++        button_box.append (clipboard_btn);
++        var spacer = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
+             hexpand = true
+         };
++        button_box.append (spacer);
++        button_box.append (retry_btn);
++        button_box.append (save_btn);
+ 
+-        folder_image = new Gtk.Image ();
+-
+-        update_location_button (folder_dir);
+-
+-        var arrow = new Gtk.Image.from_icon_name ("view-more-horizontal-symbolic");
+-
+-        var location_button_indicator = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 3);
+-        location_button_indicator.append (folder_image);
+-        location_button_indicator.append (folder_name);
+-        location_button_indicator.append (arrow);
+-
+-        var location_button = new Gtk.Button () {
+-            child = location_button_indicator
++        var header = new Adw.HeaderBar () {
++            show_end_title_buttons = false,
++            show_start_title_buttons = false
+         };
+ 
+-        var location_dialog = new Gtk.FileChooserNative (
+-            _("Select Screenshots Folder…"),
+-            this,
+-            Gtk.FileChooserAction.SELECT_FOLDER,
+-            _("Select"),
+-            null
+-        );
+-        location_dialog.set_current_folder (File.new_for_path (folder_dir));
++        var toolbar_view = new Adw.ToolbarView () {
++            content = content
++        };
++        toolbar_view.add_top_bar (header);
++        toolbar_view.add_bottom_bar (button_box);
+ 
+         // Prevent large dialog size with large screenshots
+         default_width = 500;
++        this.content = toolbar_view;
++        default_widget = save_btn;
+ 
+-        var content = this.get_content_area () as Gtk.Box;
+-        content.append (dialog_label);
+-        content.append (preview);
+-        content.append (name_label);
+-        content.append (name_entry);
+-        content.append (name_message_revealer);
+-        content.append (format_label);
+-        content.append (format_cmb);
+-        content.append (location_label);
+-        content.append (location_button);
+-
+-        var clipboard_btn = (Gtk.Button) add_button (_("Copy to Clipboard"), 0);
+-
+-        var retry_btn = (Gtk.Button) add_button (_("Cancel"), Gtk.ResponseType.CANCEL);
+-
+-        var save_btn = (Gtk.Button) add_button (_("Save"), Gtk.ResponseType.APPLY);
+-        save_btn.receives_default = true;
+-        save_btn.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
++        name_row.grab_focus ();
+ 
+-        name_entry.changed.connect (() => {
+-            if (name_entry.text.length == 0) {
++        name_row.changed.connect (() => {
++            bool valid = true;
++            if (name_row.text.length == 0) {
+                 validation_label.label = _("Filename can't be blank");
+-                name_entry.is_valid = false;
+-            } else if (name_entry.text.contains ("/")) {
++                valid = false;
++            } else if (name_row.text.contains ("/")) {
+                 validation_label.label = _("Filename can't contain “/”");
+-                name_entry.is_valid = false;
++                valid = false;
++            }
++
++            if (valid) {
++                name_row.remove_css_class ("error");
+             } else {
+-                name_entry.is_valid = true;
++                name_row.add_css_class ("error");
+             }
+ 
+-            name_message_revealer.reveal_child = !name_entry.is_valid;
+-            save_btn.sensitive = name_entry.is_valid;
++            name_message_revealer.reveal_child = !valid;
++            save_btn.sensitive = valid;
+         });
+ 
+         save_btn.clicked.connect (() => {
+-            save_response (true, folder_dir, name_entry.get_text (), format_cmb.get_active_text ());
++            save_response (true, folder_dir, name_row.text, FORMATS[format_row.selected]);
+         });
+ 
+         clipboard_btn.clicked.connect (() => {
+@@ -216,37 +227,50 @@ public class Screenshot.SaveDialog : Granite.Dialog {
+         });
+ 
+         retry_btn.clicked.connect (() => {
+-            save_response (false, folder_dir, file_name, format_cmb.get_active_text ());
++            save_response (false, folder_dir, file_name, FORMATS[format_row.selected]);
+         });
+ 
+-        format_cmb.changed.connect (() => {
+-            settings.set_string ("format", format_cmb.get_active_text ());
++        format_row.notify["selected"].connect (() => {
++            settings.set_string ("format", FORMATS[format_row.selected]);
+         });
+ 
+-        location_button.clicked.connect (() => {
+-            location_dialog.show ();
++        folder_button.clicked.connect (() => {
++            choose_folder.begin ();
+         });
++    }
+ 
+-        location_dialog.response.connect ((response) => {
+-            if (response == Gtk.ResponseType.ACCEPT) {
+-                var file_path = location_dialog.get_file ().get_path ();
+-                settings.set_string ("folder-dir", file_path );
+-                update_location_button (file_path);
++    private async void choose_folder () {
++        var file_dialog = new Gtk.FileDialog () {
++            title = _("Select Screenshots Folder…"),
++            accept_label = _("Select"),
++            modal = true,
++            initial_folder = File.new_for_path (folder_dir)
++        };
++
++        try {
++            var file = yield file_dialog.select_folder (this, null);
++            if (file != null) {
++                var file_path = file.get_path ();
++                folder_dir = file_path;
++                settings.set_string ("folder-dir", file_path);
++                update_location_row (file_path);
+             }
+-        });
++        } catch (Error e) {
++            // Dismissed or failed; keep the current folder
++        }
+     }
+ 
+-    private void update_location_button (string folder_dir) {
+-        var file = File.new_for_path (folder_dir);
++    private void update_location_row (string path) {
++        var file = File.new_for_path (path);
+         try {
+             var info = file.query_info (
+                 FileAttribute.STANDARD_DISPLAY_NAME + "," + FileAttribute.STANDARD_ICON,
+                 FileQueryInfoFlags.NONE
+             );
+-            folder_name.label = info.get_display_name ();
++            location_row.subtitle = info.get_display_name ();
+             folder_image.gicon = info.get_icon ();
+         } catch (Error e) {
+-            folder_name.label = folder_dir;
++            location_row.subtitle = path;
+             folder_image.gicon = new ThemedIcon ("folder");
+         }
+     }
+@@ -255,15 +279,19 @@ public class Screenshot.SaveDialog : Granite.Dialog {
+         Gdk.Clipboard clipboard = Gdk.Display.get_default ().get_clipboard ();
+         Gdk.Texture texture = Gdk.Texture.for_pixbuf (pixbuf);
+         clipboard.read_texture_async.begin (null, (obj, res) => {
+-            Gdk.Texture _texture = clipboard.read_texture_async.end (res);
+-            if (_texture != null && _texture.height == texture.height && _texture.width == texture.width) {
+-                hide_destroy ();
++            try {
++                Gdk.Texture? _texture = clipboard.read_texture_async.end (res);
++                if (_texture != null && _texture.height == texture.height && _texture.width == texture.width) {
++                    hide_destroy ();
++                }
++            } catch (Error e) {
++                warning ("Failed to read clipboard: %s", e.message);
+             }
+         });
+     }
+ 
+     public void hide_destroy () {
+-        hide ();
++        visible = false;
+ 
+         // Timeout added to ensure the clipboard is synced
+         // before closing the window
+-- 
+2.43.0
+

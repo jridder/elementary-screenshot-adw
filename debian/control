@@ -1,0 +1,26 @@
+Source: elementary-screenshot
+Section: graphics
+Priority: optional
+Maintainer: Jeff <jridder@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               valac,
+               gettext,
+               desktop-file-utils,
+               libgtk-4-dev,
+               libadwaita-1-dev (>= 1.4),
+               libportal-dev,
+               libportal-gtk4-dev,
+               libglib2.0-dev,
+               libgdk-pixbuf-2.0-dev
+Standards-Version: 4.7.0
+Homepage: https://github.com/elementary/screenshot
+Rules-Requires-Root: no
+
+Package: elementary-screenshot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, xdg-desktop-portal
+Description: Screenshot tool (elementary), ported to libadwaita
+ A simple screenshot tool from elementary OS, rebuilt against libadwaita
+ instead of Granite. Capture the whole screen, a window, or an area, then
+ save or copy the result.
