@@ -1,0 +1,146 @@
+# Italian translation for screenshot-tool
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-10-23 18:48+0000\n"
+"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"Language-Team: Italian <https://l10n.elementary.io/projects/screenshot-tool/"
+"extra/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Schermata"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Salva immagini dello schermo"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Un semplice strumento per catturare schermate. Scatta una foto dell'intero "
+"schermo, di un'area selezionata o della finestra corrente e anche scatti "
+"cronometrati."
+
+#: data/screenshot.metainfo.xml.in:49
+#, fuzzy
+#| msgid "elementary LLC."
+msgid "elementary, Inc."
+msgstr "elementary LLC."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Minor bug fixes"
+msgid "Minor updates:"
+msgstr "Correzione di bug minori"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Aggiornamento delle traduzioni"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Istantanea;Schermata;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Schermata dell'intero schermo"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Schermata della finestra corrente"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Schermata di un'area selezionata"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr ""
+#~ "Corregge problemi minori di visualizzazione con gli elementi della "
+#~ "selezione"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Chiudi quando viene premuto il tasto Esc"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Ripristina il carattere modificato il prima possibile per evitare di "
+#~ "rimanere bloccato in alcune situazioni"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Rispetta sempre le impostazioni di ritardo"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Aumenta il contro alla rovescia minimo a 300 ms"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Corregge il comportamento della combinazione Alt + F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Le icone ora rappresentano le opzioni dell'area di cattura"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Correzione di bug minori"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Corregge il comportamento del tasto Esc"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Aggiunge il fattore di scala al nome del file"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Nuova cartella predefinita per il salvataggio delle schermate"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr ""
+#~ "Ricorda la posizione della finestra principale per quando verrà aperta "
+#~ "nuovamente"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Riproduci il suono dell'otturatore quando si cattura una schermata"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr ""
+#~ "Correzione di un problema che provocava la comparsa di uno spazio nero "
+#~ "aggiuntivo nelle schermate di schermi HiDPI"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Informazioni"

@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-26 18:16+0000\n"
+"Last-Translator: Hossein <hossein17@duck.com>\n"
+"Language-Team: Persian <https://l10n.elementary.io/projects/screenshot/extra/"
+"fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "اسکرین شات"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "ذخیره تصاویر صفحه"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"یک ابزار اسکرین شات ساده. عکس‌های کل صفحه، عکس‌های محدوده انتخاب‌شده، عکس‌های "
+"پنجره فعال و عکس‌های زمان‌بندی شده را بگیرید."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "آپدیت جزئی:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr "پنجره دیگر همیشه در بالا نیست یا روی هر دسکتاپ گیر نمی کند"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "ترجمه های به روز شده"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "به روزرسانی المنتری اجرا به 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "بروزرسانی ترجمه"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "عکس فوری; اسکرین شات;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "اسکرین شات از کل صفحه"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "اسکرین شات از پنجره فعلی"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "عکس گرفتن از ناحیه انتخاب شده"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "رفع مشکلات کوچک"
+
+#~ msgid "About Screenshot"
+#~ msgstr "درباره اسکرینb'‌'شات"

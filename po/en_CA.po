@@ -1,0 +1,177 @@
+# English (Canada) translation for screenshot-tool
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2018-06-22 12:52+0000\n"
+"Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
+"Language-Team: English (Canada) <https://weblate.elementary.io/projects/"
+"screenshot-tool/screenshot-tool/en_CA/>\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Screenshots"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Capture area"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Capture the whole screen"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Capture active window"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Take screenshot after specified delay"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Seconds"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Include the pointer with the screenshot"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Redact system text"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Save screenshot to clipboard"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Could not capture screenshot"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Image not saved"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Save Image as…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Screenshot from %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Name:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Folder:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Select Screenshots Folder…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Copy to Clipboard"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Save"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Grab the whole screen"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Grab the current window"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Select area to grab"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "Grab mouse pointer:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Close after saving:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Conceal text:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Delay in seconds:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Take Screenshot"
+
+#~ msgid "Close"
+#~ msgstr "Close"
+
+#~ msgid "Format:"
+#~ msgstr "Format:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Screenshot taken"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Couldn't find an active window"
+
+#~ msgid "Capture area:"
+#~ msgstr "Capture area:"
+
+#~ msgid "Properties:"
+#~ msgstr "Properties:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Save images of your screen or individual windows."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella\n"
+#~ "  Giovanni Caligaris https://launchpad.net/~giovannicaligaris\n"
+#~ "  chilledfrogs https://launchpad.net/~chilledfrogs"

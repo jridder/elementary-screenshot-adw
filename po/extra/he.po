@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-02 00:57+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/screenshot/extra/"
+"he/>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "צילום מסך"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "שמירת תמונה של המסך"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"כלי פשוט לצילום המסך. ניתן לצלם את כל המסך, חלקים נבחרים ממנו, החלון הנוכחי "
+"וצילומים מתוזמנים."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary בע״מ."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "עדכונים משניים:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr "החלון אינו עליון יותר או נעוץ בכל שולחנות העבודה"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "עודכנו תרגומים"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "סביבת הריצה של elementary עודכנה ל־6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "עדכוני תרגומים"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "צילום;לכידה;תמונה;סקרינשוט;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "צילום כל המסך"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "צילום החלון הנוכחי"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "צילום אזור נבחר"
+
+#~ msgid "New features:"
+#~ msgstr "יכולות חדשות:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "תמיכה בסגנון כהה"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "ניתן לגרור ולהשליך את תמונות התצוגה המקדימה מחלונית השמירה"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "ניתן לגרור כדי להעביר את החלון מכל מקום"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "יוצגו פרטים לשגיאות כשאלו מתרחשות"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "תיקון תקלות חזותיות מזעריות עם בחירת פריטים"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "לסגור בלחיצה על המקש Escape"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr "לשחזר את הגופן שהשתנה באופן זמני כדי להימנע מתקיעות בכל מיני מצבים"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "תמיד לכבד את הגדרות ההשהיה"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "הקטנת הזמן הקצוב המזערי ל־300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "תיקון התנהגות צירוף המקשים Alt+F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "סמלים מייצגים מעתה את אפשרויות האזורים ללכידה"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "תיקוני באגים קלים"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "תיקון התנהגות המקש Esc"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "הוספת מקדם שינוי גודל לשם הקובץ"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "תיקיית בררת מחדל חדשה לשמירת צילומי מסך"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "לזכור את מיקום החלון הראשי לטובת תצוגה חוזרת"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "השמעת צליל צמצם בעת צילום המסך"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "תיקון אזור שחור נוסף בצילומי HiDPI"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "על אודות צילום מסך"

@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-03 23:16+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Language-Team: Hungarian <https://l10n.elementary.io/projects/screenshot/"
+"extra/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Képernyőkép"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Képernyőképek készítése"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Egy egyszerű képernyőkép eszköz. Készítsen képet az egész asztalról, egy "
+"kijelölt területről vagy az aktív ablakról, akár időzetve is."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Kisebb frissítések:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+"Az ablak már nincs mindig felül és nem jelenik meg minden munkaterületen"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Frissített fordítások"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Az elementary futtatókörnyezet frissítve 6.1-re"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Fordítási frissítések"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Snapshot;Screenshot;Pillanatkép;Képernyőkép;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Képernyőkép az egész asztalról"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Képernyőkép az aktuális ablakról"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Képernyőkép egy kijelölt területről"
+
+#~ msgid "New features:"
+#~ msgstr "Új funkciók:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Sötét téma támogatása"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "Az előnézeti kép áthúzható a mentési párbeszédpanelről"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Ablak átmozgatása bárhonnan"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "A hibarészletek megjelenítése, ha előfordulnak"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr ""
+#~ "A kiválasztott elemekkel kapcsolatos kisebb vizuális problémák javítása"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Bezárás az Escape billentyű megnyomására"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Az elakadások elkerülése érdekében a lehető leghamarabb állítsa vissza a "
+#~ "szerkesztett betűtípust"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Mindig tartsa be a késleltetési beállításokat"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "A minimális időtúllépés növelése 300-ra"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Az Alt+F4 működésének javítása"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Az ikonok mostantól a rögzítési terület lehetőségeit jelzik"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Kisebb hibajavítások"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Az ESC működésének javítása"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "A méretezési tényező hozzáadása a fájlnévhez"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "A képernyőkép-mentések új alapértelmezett helye"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Főablak helyzetének megjegyzése az újra megjelenéshez"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Hangjelzés Képernyőkép készítésekor"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "A fekete területek javítása a HiDPI képernyőképeken"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "A Képernyőképről"

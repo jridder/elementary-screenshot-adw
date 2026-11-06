@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2022-01-16 08:30+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/screenshot/extra/"
+"mr/>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "स्क्रीनशॉट"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "स्क्रीनच्या प्रतिमा सेव्ह करा"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"एक साधे स्क्रीनशॉट साधन. संपूर्ण स्क्रीन शॉट्स, निवडलेले क्षेत्राचे शॉट्स, वर्तमान विंडो शॉट "
+"आणि टाइम शॉट कॅप्चर करा."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "किरकोळ अद्यतने:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "अद्यतनित भाषांतरे"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "elementary रनटाइम 6.1 वर अपडेट करा"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "भाषांतर अपडेट्स"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "स्नॅपशॉट; स्क्रीनशॉट;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "संपूर्ण स्क्रीनचा स्क्रीनशॉट"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "वर्तमान विंडोचा स्क्रीनशॉट"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "निवडलेल्या क्षेत्राचा स्क्रीनशॉट"
+
+#~ msgid "New features:"
+#~ msgstr "नवीन वैशिष्ट्ये:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "गडद शैलीला समर्थन द्या"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "सेव्ह संवादातून प्रीव्ह्यू इमेज ड्रॅग आणि ड्रॉप करा"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "विंडो कोठूनही हलवण्यासाठी ड्रॅग करा"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "त्रुटी आढळल्यास तपशील दाखवा"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "निवड आयटमसंबंधीत किरकोळ व्हिज्युअल समस्यांचे निराकरण करा"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "एस्केप की दाबल्यावर बंद करा"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr "काही परिस्थितीत अडकणे टाळण्यासाठी शक्य तितक्या लवकर रेडकेटेड फॉन्टवर परत जा"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "विलंब सेटिंगचा नेहमी आदर करा"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "किमान कालबाह्यता 300 पर्यंत वाढवा"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Alt + F4 की वर्तन निराकरण करा"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "आयकॉन्स आता कॅप्चर क्षेत्र पर्याय प्रस्तुत करतात"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "किरकोळ दोष निराकरणे"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "ESC की वर्तन निश्चित करा"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "फाईलनाव मध्ये स्केलिंग घटक जोडा"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "स्क्रीनशॉट जतन करण्यासाठी नवीन डीफॉल्ट फोल्डर"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "विंडो पुन्हा दिसण्यासाठी मुख्य विंडो स्थान लक्षात ठेवा"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "जेव्हा स्क्रीनशॉट घेतला जातो तेव्हा शटर ध्वनी प्ले करा"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "हायडीपीआय स्क्रीनशॉटवर अतिरिक्त काळा क्षेत्र निश्चित करा"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"

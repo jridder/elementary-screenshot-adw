@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-10-09 16:14+0000\n"
+"Last-Translator: Trkien618 <hacngoctrungkien@gmail.com>\n"
+"Language-Team: Vietnamese <https://l10n.elementary.io/projects/screenshot-"
+"tool/extra/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Ảnh chụp màn hình"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Lưu hình ảnh của màn hình"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Một công cụ chụp màn hình đơn giản. Chụp toàn màn hình, chụp khu vực đã "
+"chọn, chụp cửa sổ hiện tại và chụp theo thời gian."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Minor bug fixes"
+msgid "Minor updates:"
+msgstr "Sửa lỗi nhỏ"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Cập nhật bản dịch"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Snapshot;Screenshot;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Ảnh chụp của toàn bộ màn hình"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Ảnh chụp màn hình của Cửa sổ hiện tại"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Ảnh chụp màn hình của một vùng được chọn"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Khắc phục các vấn đề về hình ảnh và các mục lựa chọn"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Đóng khi nhấn phím Esc"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Quay lại phông chữ được chỉnh sửa càng sớm càng tốt để tránh bị lỗi trong "
+#~ "một số trường hợp"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Luôn giữ lại cài đặt độ trễ"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Tăng thời gian chờ tối thiểu lên 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Sửa chế độ Alt+F4"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Sửa lỗi nhỏ"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Sửa thêm vùng đen trên ảnh chụp màn hình HiDPI"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Giới thiệu về Chụp màn hình"

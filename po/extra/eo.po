@@ -1,0 +1,134 @@
+# Esperanto translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-03-17 14:09+0000\n"
+"Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
+"Language-Team: Esperanto <https://l10n.elementary.io/projects/screenshot-"
+"tool/extra/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Ekrankopio"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Savkopiu ekranaĵojn"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Jen simpla ekrankopia ilo. Kaptu la tutan ekranon, parton, aktivan "
+"fenestron, tuj aŭ post momentoj."
+
+#: data/screenshot.metainfo.xml.in:49
+#, fuzzy
+#| msgid "elementary LLC."
+msgid "elementary, Inc."
+msgstr "elementary LLC."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Minor bug fixes"
+msgid "Minor updates:"
+msgstr "Malgravaj sencimigoj"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Tradukaj ĝisdatigoj"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "ekrankopio;ekranprintaĵo;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Ekrankopio de la tuta ekrano"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Kopio de la aktiva fenestro"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Kopio de elektita areaĵo"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Ripari etajn vidajn problemojn pri elektado de elementoj"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Fermi per premo de la eskapa klavo"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr "Malfari tiparan ŝanĝon tuj, por eviti blokiĝon en iuj situacioj"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Ĉiam respekti la specifitan daŭron"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Pligrandigi la minimuman tempolimon ĝis 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Ripari la konduton de klavoj Alt+F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Bildeton nun montras la agordojn pri areaĵa kapto"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Malgravaj sencimigoj"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Ripari la konduton de la klavo Esk"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Postglui skalfaktoron post dosiera nomo"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Nova apriora dosierujo por konservi ekrankopiojn"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Memori pozicion de la ĉefa fenestro kie reaperigi fenestron"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Ludi obturilan sonon je ekrankopio"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Ripari aldonan nigran zonon de HiDPI-ekrankopio"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Pri Ekrankopio"

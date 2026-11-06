@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-02 20:05+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Language-Team: Ukrainian <https://l10n.elementary.io/projects/screenshot/"
+"extra/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Знімок екрана"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Зберігайте зображення екрана"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Простий засіб для створення знімків екрана. Знімайте весь екран, вибрані "
+"ділянки, поточні вікна власноруч та з допомогою таймера."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Незначні оновлення:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+"Вікно перестало бути завжди зверху або переноситися на кожен робочий стіл"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Оновлено переклади"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Оновлення середовища виконання elementary до версії 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Оновлення перекладів"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Snapshot;Screenshot;Скріншот;Знімок;Екран;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Знімок всього екрана"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Знімок поточного вікна"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Знімок вибраної області"
+
+#~ msgid "New features:"
+#~ msgstr "Нові функції:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Підтримка темного стилю"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr ""
+#~ "Перетягування зображення попереднього перегляду з діалогового вікна "
+#~ "збереження"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Перетягування вікна за будь-яке місце"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "Показ подробиць щодо помилок у разі їх виникнення"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Виправлено незначні вади зовнішнього вигляду елементів вибору"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Закривайте програму натиснувши Escape"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Якнайшвидше скасуйте зміну шрифту, щоб уникнути зациклювання в деяких "
+#~ "ситуаціях"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Чітке дотримання встановленої затримки"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Збільшено мінімальний час затримки до 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Виправлено поведінку комбінації клавіш Alt+F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Параметри вибору області захоплення у вигляді піктограм"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Незначні вади усунено"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Виправлено поведінку клавіші ESC"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Додано коефіцієнт масштабування до назви файлу"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Нова тека зберігання знімків екрана"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Запам'ятовування положення головного вікна до наступного запуску"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Додано звук затвора, коли зроблено знімок екрана"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Виправлено появу зайвої чорної зони на знімках екранів з HiDPI"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Про Screenshot"

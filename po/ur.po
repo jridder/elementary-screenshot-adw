@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2016-09-22 10:24+0000\n"
+"Last-Translator: Waqar Ahmed <waqar.17a@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Application.vala:21
+#, fuzzy
+msgid "Screenshots"
+msgstr "سکرین شاٹ"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "کچھ رکبے کی تصویر لیں"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "مکمل سکرین کی تصویر لیں"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "ایکٹیو ونڈو کی تصویر لیں"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "بتائی گئی تاخیر کے بعد سکرین شاٹ لیں"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "سیکنڈ"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "ماؤس پوائینٹر کو سکرین شاٹ میں شامل کریں"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "سسٹم متن کو کالا کریں پوشیدہ کرنے کے لیے"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr ""
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "سکرین شاٹ نہیں لے سکا"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "تصویر محفوظ نہیں ہوئی"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "سکرین شاٹ"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "تصویر محفوظ کریں بنام۔۔۔"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "سکرین شاٹ بتاریخ %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "نام:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "فولڈر:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "سکریں شاٹ فولڈر منتخب کریں۔۔۔"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "منسوخ کریں"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "محفوظ کریں"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "مکمل سکرین کی تصویر لیں"
+
+#~ msgid "Grab the current window"
+#~ msgstr "موجودہ ونڈو کی تصویر لیں"
+
+#~ msgid "Select area to grab"
+#~ msgstr "تصویر لینے کے لیے رکبہ چنیں"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "ماوٗس پوائنٹر کو پکڑے:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "محفوظ کرنے کے بعد بند:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "متن پوشیدہ کریں"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "سیکنڈوں میں تاخیر"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "سکرین شاٹ لیں"
+
+#~ msgid "Format:"
+#~ msgstr "فارمیٹ:"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "کوئی ایکٹیو ونڈو نہیں ملی"
+
+#~ msgid "Capture area:"
+#~ msgstr "کیپچر کرنے کے لیے رکبہ:"
+
+#~ msgid "Properties:"
+#~ msgstr "خصوصیات"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Waqar Ahmed https://launchpad.net/~waqar-17a"

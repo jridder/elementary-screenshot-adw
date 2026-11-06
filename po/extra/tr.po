@@ -1,0 +1,137 @@
+# Turkish translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-21 10:16+0000\n"
+"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/screenshot/extra/"
+"tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Ekran Görüntüsü"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Ekranın görüntülerini kaydet"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Basit bir ekran görüntüsü aracı. Tüm ekranın, sadece seçili alanın, sadece "
+"seçili pencerenin görüntüsünü kaydedin ve zamanlanabilir kayıtlar yapın."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Küçük güncellemeler:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+"Pencere artık her zaman en üstte değil veya her masaüstünde takılı kalmıyor"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Güncellenmiş çeviriler"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "elementary çalışma zamanı 6.1 sürümüne güncellendi"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Çeviriler güncellendi"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr ""
+"Hızlı fotoğraf;Ekran görüntüsü;Anlık Görüntü;Şipşak;Snapshot;Screenshot;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Tüm Ekranın Görüntüsü"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Geçerli Pencerenin Görüntüsü"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Seçilen Bölgenin Görüntüsü"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Öğelerin seçimiyle alakalı ufak görsel sorunlar düzeltildi"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Esc tuşuna basınca kapat"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Bazı durumlarda takılmaktan kaçınmak için düzeltilmiş yazı tipinden en "
+#~ "kısa sürede geri dön"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Gecikme ayarını her zaman uygula"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Minimum zaman aşımı süresini 300'e çıkart"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Alt+F4 davranışını düzelt"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Simgeler artık yakalama alanı seçeneklerini temsil ediyor"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Küçük hata düzeltmeleri"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "ESC tuşu davranışını düzeltildi"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Dosya adına ölçeklendirme faktörünü ekle"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Ekran görüntülerini kaydetmek için yeni varsayılan klasör"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Yeniden görünen pencere için ana pencere konumunu hatırla"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Ekran görüntüsü alındığında deklanşör sesini çal"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "HiDPI ekran görüntülerinde ekstra siyah alanı düzelt"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Screenshot Hakkında"

@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2017-01-29 08:30+0000\n"
+"Last-Translator: Fabio Zaramella <FFabio.96.X@Gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Application.vala:21
+#, fuzzy
+msgid "Screenshots"
+msgstr "Στιγμιότυπο οθόνης"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Περιοχή λήψης"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Λήψη ολόκληρης της οθόνης"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Λήψη ενεργού παραθύρου"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Λήψη στιμιότυπου οθόνης μετά από προσδιορισμένη καθυστέρηση"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Να συμπεριλαμβάνεται ο δείκτης στο στιγμιότυπο οθόνης"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Απόκρυψη κειμένου συστήματος"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr ""
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Δεν είναι εφικτή η λήψη του στιγμιότυπου οθόνης"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Η απεικόνιση δεν αποθηκεύτηκε"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Στιγμιότυπο οθόνης"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Αποθήκευση απεικόνισης ως..."
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Στιγμιότυπο οθόνης από %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Όνομα:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Φάκελος:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Επιλογή φακέλου στιγμιότυπων οθόνης..."
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Λήψη ολόκληρης της οθόνης"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Λήψη του τρέχοντος παραθύρου"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Επιλογή περιοχής λήψης"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "Λήψη του δείκτη του ποντικιού:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Κλείσιμο μετά την αποθήκευση:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Απόκρυψη κειμένου:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Καθυστέρηση σε δευτερόλεπτα:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Λήψη στιγμιότυπου οθόνης"
+
+#~ msgid "Format:"
+#~ msgstr "Μορφή:"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Δε βρέθηκε ενεργό παράθυρο"
+
+#~ msgid "Capture area:"
+#~ msgstr "Περιοχή λήψης:"
+
+#~ msgid "Properties:"
+#~ msgstr "Ιδιότητες:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Αποθηκεύστε απεικονίσεις της οθόνης σας ή μεμονομένων παραθύρων."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Christos Iatropoulos https://launchpad.net/~ci4\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella"

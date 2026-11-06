@@ -1,0 +1,175 @@
+# Czech translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-07-16 09:12+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/screenshot-tool/"
+"screenshot-tool/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Snímky obrazovky"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Zachytit oblast"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Zachytit celou obrazovku"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Zachytit aktivní okno"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Pořídit snímek po stanovené prodlevě"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekund"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Zahrnout do snímku obrazovky kurzor myši"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Odebrat systémový text"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Uložit snímek obrazovky do schránky"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Snímek obrazovky nemohl být pořízen"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Obrázek neuložen"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Snímek obrazovky"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Uložit obrázek jako…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Snímek z %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Název:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Složka:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Vybrat složku snímků obrazovky…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Zkopírovat do schránky"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Storno"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Uložit"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Zachytit celou obrazovku"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Zachytit aktivní okno"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Zvolit oblast k zachycení"
+
+#~ msgid "Grab pointer:"
+#~ msgstr "Zachytit kurzor:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Zavřít po uložení:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Znečitelnit text:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Zpoždění ve vteřinách:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Zachytit snímek obrazovky"
+
+#~ msgid "Close"
+#~ msgstr "Zavřít"
+
+#~ msgid "Format:"
+#~ msgstr "Formát:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Snímek zachycen"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Nelze najít žádné aktivní okno"
+
+#~ msgid "Capture area:"
+#~ msgstr "Vybrat oblast:"
+
+#~ msgid "Properties:"
+#~ msgstr "Vlastnosti:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Uložit snímek obrazovky nebo jednotlivých oken."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella\n"
+#~ "  Marek Suchánek https://launchpad.net/~suchm\n"
+#~ "  Petr Dombek https://launchpad.net/~dombek"

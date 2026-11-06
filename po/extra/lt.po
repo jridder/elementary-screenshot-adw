@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2019-08-29 17:22+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/screenshot-"
+"tool/extra/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Ekrano kopija"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Įrašyti ekrano paveikslus"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Paprastas ekrano kopijų įrankis. Fotografuokite viso ekrano kopijas, "
+"pasirinktos srities ekrano kopijas, esamo lango ekrano kopijas bei ekrano "
+"kopijas su laiko uždelsimu."
+
+#: data/screenshot.metainfo.xml.in:49
+#, fuzzy
+#| msgid "elementary LLC."
+msgid "elementary, Inc."
+msgstr "elementary LLC."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Minor bug fixes"
+msgid "Minor updates:"
+msgstr "Smulkių klaidų pataisymai"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Vertimų atnaujinimai"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Ekrano kopija;Momentinė nuotrauka;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Viso ekrano kopija"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Esamo lango ekrano kopija"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Pasirinktos srities ekrano kopija"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Kaip įmanoma greičiau sugrįžti iš redaguoto šrifto, kad kai kuriose "
+#~ "situacijose būtų išvengta strigčių"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Visada gerbti delsos nustatymą"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Padidinti mažiausią laiko limitą iki 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Pataisyti Alt+F4 klavišo elgseną"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Dabar, piktogramos atvaizduoja fotografavimo srities parametrus"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Smulkių klaidų pataisymai"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Pataisyti Grįžties(ESC) klavišo elgseną"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Pridėti mastelio keitimo faktorių į failo pavadinimą"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Naujas numatytasis aplankas, skirtas ekrano kopijų įrašymui"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Prisiminti iš naujo atsirandančio lango pagrindinę poziciją"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Darant ekrano kopiją atkurti sklendės garsą"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Pataisyta papildoma juoda sritis HiDPI ekrano kopijose"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Apie Ekrano kopiją"

@@ -1,0 +1,155 @@
+# Catalan translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-02 20:05+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/screenshot/extra/"
+"ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Desa imatges de la pantalla"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Una eina simple de captura de pantalla. Captura imatges de pantalla, d'àrees "
+"seleccionades, de la finestra actual i fa captures temporitzades."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Actualitzacions menors:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+"La finestra ja no és sempre a la part superior o enganxada a tots els "
+"escriptoris."
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Actualització de l'entorn d'execució de l'elementary a 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Actualitzacions de la traducció"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Instantània;Captura de pantalla;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Captura de tota la pantalla"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Captura de la finestra actual"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Captura d'una àrea seleccionada"
+
+#~ msgid "New features:"
+#~ msgstr "Característiques noves:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Admissió de l'estil fosc"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr ""
+#~ "Arrossegueu i deixeu anar la imatge de vista prèvia des del diàleg de "
+#~ "desar."
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Arrossegueu per moure la finestra des de qualsevol lloc."
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "Es mostren els detalls dels errors si es produeixen."
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Correcció d'errors visuals de selecció d'elements"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Es tanca en prémer la tecla Esc."
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Reversió al tipus de lletra redactat tan aviat com sigui possible per "
+#~ "evitar que quedin bloquejats en algunes situacions"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Es respecta sempre la configuració de retard"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Increment del temps màxim a 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Correcció del comportament de la tecla Alt + F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Ara les icones representen les opcions de l'àrea de captura"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Correccions d'errors menors"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Correcció del comportament de la tecla ESC"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Addició del factor d’escala al nom del fitxer"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Nova carpeta predeterminada per desar les captures de pantalla"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr ""
+#~ "Record de la posició principal de la finestra per tornar a aparèixer"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Reprodueix el so de l'obturador quan es fa una captura de pantalla"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Correcció de l'àrea fosca de les captures de pantalla en HiDPI"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Quant al Captura de pantalla"

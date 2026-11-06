@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-07-22 20:12+0000\n"
+"Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
+"Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
+"screenshot-tool/screenshot-tool/nn/>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Skjermkutt"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Fangstområde"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Heile skjermen"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Fang gjeldande vindauge"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Etter spesifisert forseinking"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekund"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Ta med peikaren i skjermkuttet"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Fjern systemtekst"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Lagre skjermkuttet til utklippstavla"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Kunne ikkje fange opp skjermkutt"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Biletet vart ikkje lagra"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Skjermkutt"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Lagre biletet som…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Skjermkutt frå %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Namn:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Mappe:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Vel mappe for skjermkutt…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Kopier til utklippstavla"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Lagre"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Fang heile skjermen"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Fang det aktive vindauget"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Vel eit område å fange"
+
+#~ msgid "Grab pointer:"
+#~ msgstr "Fang peikaren:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Avslutt etter lagring:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Skjul tekst:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Forseinking i sekund:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Ta skjermkutt"
+
+#~ msgid "Close"
+#~ msgstr "Lukk"
+
+#~ msgid "Format:"
+#~ msgstr "Format:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Skjermkutt teke"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Kunne ikkje finne eit aktivt vindauge"

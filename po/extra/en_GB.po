@@ -1,0 +1,150 @@
+# English (United Kingdom) translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-29 02:16+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"screenshot/extra/en_GB/>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Save images of the screen"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Minor updates:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr "The window is no longer always on top or stuck on every desktop"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Updated translations"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Update elementary runtime to 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Translation updates"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Snapshot;Screenshot;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Screenshot of the Whole Screen"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Screenshot of the Current Window"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Screenshot of a Selected Area"
+
+#~ msgid "New features:"
+#~ msgstr "New features:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Support the dark style"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "Drag and Drop the preview image from the save dialog"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Drag to move the window from anywhere"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "Show details for errors if they occur"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Fix minor visual issues with selection items"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Close when pressing the Escape key"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Always respect delay setting"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Increase minimum timeout to 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Fix Alt+F4 key behaviour"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Icons now represent the capture area options"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Minor bug fixes"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Fix ESC key behaviour"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Append scaling factor to filename"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "New default folder to save screenshots"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Remember main window position for reappearing window"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Play shutter sound when a screenshot is taken"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Fix extra black area on HiDPI screenshots"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "About Screenshot"

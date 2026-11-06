@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2017-03-03 14:12+0000\n"
+"Last-Translator: Fabio Zaramella <FFabio.96.X@Gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Application.vala:21
+#, fuzzy
+msgid "Screenshots"
+msgstr "Ekrānattēls"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Tveršanas laukums"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Tvert visu ekrānu"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Tvert aktīvo logu"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Tvert ekrānbildi pēc norādītās aiztures"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekundes"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Iekļaut kursoru ekrānattēlā"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr ""
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr ""
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Neizdevās notvert ekrānattēlu"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Attēls netika saglabāts"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Ekrānattēls"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Saglabāt attēlu kā..."
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Ekrānattēls no %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Nosaukums:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Mape:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Norādiet ekrānattēlu mapi"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Kopēt uz starpliktuvi"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "At_celt"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "_Saglabāt"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Tvert visu ekrānu"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Tvert esošo logu"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Norādīt reģionu ko tvert"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "Tvert peles kursoru"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Aizvērt pēc saglabāšanas"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Aizture sekundēs"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Uzņemt ekrānattēlu"
+
+#~ msgid "Format:"
+#~ msgstr "Formāts:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Ekrānattēls uzņemts"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Neatradu aktīvo logu"
+
+#~ msgid "Properties:"
+#~ msgstr "Parametri"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella\n"
+#~ "  draza https://launchpad.net/~draza"

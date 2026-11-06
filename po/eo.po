@@ -1,0 +1,167 @@
+# Esperanto translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2019-07-15 01:28+0000\n"
+"Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
+"Language-Team: Esperanto <https://l10n.elementary.io/projects/screenshot-"
+"tool/screenshot-tool/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Ekrankopioj"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Kapti areaĵon"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Kapti la tutan ekranon"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Kapti la aktivan fenestron"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Kapti post specifita daŭro"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekundoj"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Inkluzivigi la indikilon en la kaptado"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Redakti la sisteman tekston"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Registri la kaptaĵon en la tondujo"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Neeblis fari ekrankopion"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Bildo ne registrita"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Ekrankopio"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Registri bildon kiel…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Ekrankopita je %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Nomo:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Dosierujo:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Elekti la dosierujon de ekrankopioj…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Kopii en la tondujo"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Rezigni"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Konservi"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Kapti la tutan ekranon"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Kapti la aktivan fenestron"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Elekti areaĵon kaptota"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "Kapti la musan indikilon:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Fermi post registrado:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Kaŝi la tekston:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Daŭro en sekundoj:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Krei ekrankopion"
+
+#~ msgid "Close"
+#~ msgstr "Fermi"
+
+#~ msgid "Format:"
+#~ msgstr "Formo:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Ekrankopio farita"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Ne estas aktiva fenestro"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Adolfo Jayme https://launchpad.net/~fitojb\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella"

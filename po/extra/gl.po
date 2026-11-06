@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2019-10-10 14:23+0000\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"Language-Team: Galician <https://l10n.elementary.io/projects/screenshot-tool/"
+"extra/gl/>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Gardar imaxes da pantalla"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Unha ferramenta sinxela para facer capturas de pantalla. Permite capturar a "
+"pantalla completa, unha área concreta ou a xanela activa e realizar capturas "
+"tras un tempo."
+
+#: data/screenshot.metainfo.xml.in:49
+#, fuzzy
+#| msgid "elementary LLC."
+msgid "elementary, Inc."
+msgstr "elementary LLC."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Translation updates"
+msgid "Minor updates:"
+msgstr "Actualización de traducións"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Actualización de traducións"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Captura;Imaxe;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Captura de pantalla completa"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Captura da xanela actual"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Captura dunha área seleccionada"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Respectar sempre a configuración de atraso"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Aumentar o tempo de espera mínimo a 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Corrixir o comportamento da tecla Alt + F4"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"

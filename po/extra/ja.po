@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-03 23:16+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/screenshot/"
+"extra/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "スクリーンショット"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "画面の画像を保存します"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"シンプルなスクリーンショットツールです。画面全体、選択した範囲、現在のウィン"
+"ドウのほか、遅延させたスクリーンショットも取得できます。"
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "そのほかのアップデート:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+"ウィンドウが最前面に維持されたりすべてのデスクトップに表示されたりしないよう"
+"に修正"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "翻訳の更新"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "elementary ランタイムのバージョンを 6.1 にアップデート"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "翻訳の更新"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Snapshot;Screenshot;スナップショット;スクリーンショット;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "画面全体のスクリーンショット"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "現在のウィンドウのスクリーンショット"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "選択範囲のスクリーンショット"
+
+#~ msgid "New features:"
+#~ msgstr "新機能:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "ダークモードに対応"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr ""
+#~ "保存ダイアログからプレビュー画像をドラッグ & ドロップできる機能を追加"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "ウィンドウをドラッグして移動できるように修正"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "エラーが発生した場合に詳細を表示するように修正"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "選択項目に関する軽微な視覚的な不具合を修正"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Esc キーの押下時にアプリを終了するように修正"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "特定の状況下においてアプリがフリーズするのを防ぐため、なるべく早くダミー"
+#~ "フォントから復元するように修正"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "遅延の設定を常に反映するように修正"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "タイムアウトの最小値を300ミリ秒に増加"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Alt+F4 キー押下時の挙動を修正"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "取得範囲を表すアイコンに変更"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "軽微なバグの修正"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Esc キー押下時の挙動を修正"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "ファイル名にスケールファクターを追加するように変更"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "スクリーンショットのデフォルトの保存先を変更"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr ""
+#~ "メインウィンドウの位置を記録し、再度表示されるウィンドウで復元するように変"
+#~ "更"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "スクリーンショットの取得時にシャッター音が鳴るように変更"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "HiDPI スクリーンショットでの余分な黒い部分を修正"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "スクリーンショットについて"

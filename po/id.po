@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2023-05-27 17:07+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/screenshot/"
+"screenshot/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Tangkapan layar"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Daerah tangkapan"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Tangkap seluruh layar"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Tangkap jendela aktif"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Ambil tangkapan layar setelah jeda yang ditentukan"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Detik"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Sertakan penunjuk dengan tangkapan layar"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Sunting teks sistem"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Simpan tangkapan layar ke papan klip"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Tidak dapat menangkap tangkapan layar"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Gambar tidak disimpan"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Tangkapan layar"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Simpan Gambar sebagai…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Tangkapan layar dari %s"
+
+#: src/SaveDialog.vala:90
+msgid "Name"
+msgstr "Nama"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr "Jenis Berkas"
+
+#: src/SaveDialog.vala:138
+msgid "Folder"
+msgstr "Folder"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Pilih Folder Tangkapan Layar…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Salin ke Papan Klip"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Batal"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Simpan"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr "Nama berkas tidak boleh kosong"
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr "Nama berkas tidak boleh mengandung “/”"
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Ambil seluruh layar"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Ambil jendela saat ini"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Pilih area untuk diambil"
+
+#~ msgid "Grab pointer:"
+#~ msgstr "Ambil penunjuk:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Tutup setelah menyimpan:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Sembunyikan teks:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Jeda dalam detik:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Ambil Tangkapan Layar"
+
+#~ msgid "Close"
+#~ msgstr "Tutup"
+
+#~ msgid "Format:"
+#~ msgstr "Format:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Cuplikan layar telah diambil"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Tidak dapat menemukan jendela aktif"
+
+#~ msgid "Capture area:"
+#~ msgstr "Area pengambilan:"
+
+#~ msgid "Properties:"
+#~ msgstr "Properti:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Simpan gambar dari layar atau jendela individual Anda."
+
+#~ msgid "translator-credits"
+#~ msgstr "Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017."

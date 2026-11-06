@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2020-02-23 13:08+0000\n"
+"Last-Translator: gkkulik <g.kulik@o2.pl>\n"
+"Language-Team: Silesian <https://l10n.elementary.io/projects/screenshot-tool/"
+"screenshot-tool/szl/>\n"
+"Language: szl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Przechyty ekranu"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Plac przechytowanio"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Przechyć cołki ekran"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Przechyć aktywne ôkno"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Zrōb przechyt ekranu po ôkryślōnym czasie"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekundy"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Przidej kursōr do przechytu ekranu"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Redaguj tekst systymowy"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Spamiyntej przechyt ekranu do skrytki"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Niy szło wykōnać przechytu ekranu"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Ôbroz niy bōł spamiyntany"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Przechyt ekranu"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Spamiyntej ôbroz za…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Przechyt ekranu ze %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Miano:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Katalog:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Ôbier folder przechytōw ekranu…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Skopiuj do skrytki"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Pociep"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Spamiyntej"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Przechyć cołki ekran"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Przechyć teroźne ôkno"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Zaznacz plac do przechytu"
+
+#, fuzzy
+#~| msgid "Grab mouse pointer:"
+#~ msgid "Grab pointer:"
+#~ msgstr "Przechyć kursōr myszy:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Zawrzij po spamiyntaniu:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Skryj tekst:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Ôpōźniynie w sekundach:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Zrōb przechyt ekranu"
+
+#~ msgid "Close"
+#~ msgstr "Zawrzij"
+
+#~ msgid "Format:"
+#~ msgstr "Format:"
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Przechyt ekranu bōł zrobiōny"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Niy szło znojś aktywnego ôkna"

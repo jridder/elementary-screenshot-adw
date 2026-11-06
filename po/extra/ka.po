@@ -1,0 +1,146 @@
+# Georgian translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-09-12 22:16+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/screenshot/"
+"extra/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "ეკრანის ანაბეჭდი"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "ეკრანის სურათების შენახვა"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"ეკრანის ანაბეჭდის გადასაღები მარტივი პროგრამა. გადაიღეთ მთელი ეკრანები, "
+"მონიშნული ადგილები, მიმდინარე ფანჯრები და დაყოვნებული სურათები."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "უმნიშვნელო განახლებები:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr "ფანჯარა აღარაა ყველა ფანჯრის ზემოთ ან ნაჩვენები ყველა სამუშაო მაგიდაზე"
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "განახლებული თარგმანები"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Elementary-ის გაშვების გარემოს განახლება ვერსიამდე 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "თარგმანის განახლებები"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "მომენტალური ფოტო;ეკრანის ანაბეჭდი;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "მთელი ეკრანის ანაბეჭდი"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "მიმდინარე ფანჯრის ანაბეჭდი"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "მონიშნული ადგილის ანაბეჭდი"
+
+#~ msgid "New features:"
+#~ msgstr "ახალი ფუნქციები:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "ბნელი სტილის მხარდაჭერა"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "შენახვის ფანჯრიდან მინიატურის გადმოთრევა/დაგდება"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "გადმოათრიეთ ფანჯრის ნებისმიერი ადგილიდან გადმოსატანად"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "შეცდომის აღმოჩენისას მისი დეტალების ჩვენება"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr ""
+#~ "ელემენტების მონიშვნასთან დაკავშირებული ვიზუალური პრობლემების გასწორება"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "დახურვა Escape ღილაკით"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "ჩასწორებული ფონტიდან რაც შეიძლება სწრაფად დაბრუნება, რათა ზოგიერთ "
+#~ "სიტუაციაში გაჭედვა თავიდან აიცილოთ"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "დაყოვნების პარამეტრი ყოველთვის გათვალისწინებული იქნება"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "მინიმალური მოლოდინის ვადის 300-მდე გაზრდა"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Alt+F4 ღილაკების ქცევის გასწორება"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "ხატულები ახლა გადასაღები ადგილის პარამეტრებს წარმოადგენენ"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "მცირე შეცდომების გამოსწორება"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "ESC ღილაკის ქცევის გასწორება"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "ფაილის სახელისთვის მასშტაბის მიწერა"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "ახალი ნაგულისხმევი საქაღალდე ეკრანის ანაბეჭდების შესანახად"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr ""
+#~ "თავიდან გამოჩენადი ფანჯრებისთვის მთავარი ფანჯრის მდებარეობის დამახსოვრება"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "შატერის ხმა ეკრანის ანაბეჭდის გადაღებისას"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "HiDPI ეკრანებზე დამატებითი შავი ადგილის გასწორება"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Screenshot-ის შესახებ"

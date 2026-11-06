@@ -1,0 +1,111 @@
+# Norwegian Bokmal translation for screenshot-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-07-05 14:16+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
+"screenshot/extra/nb/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Skjermavbildning"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Lagre bilder av skjermen"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Et enkelt skjermavbildningsverktøy. Ta hele skjermavbildninger, valgte "
+"områder, gjeldende vindu, med muligheten til å bruke nedtelling til å gjøre "
+"det."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Småoppdateringer:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Oppdaterte oversettelser"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Oppdatert elementary-kjøretidsrutine til 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Oversettelsesoppdateringer"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Skjermavbildning;Snapshot;Screenshot;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Skjermavbildning av hele skjermen"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Skjermavbildning av gjeldende vindu"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Skjermavbildning av valgt område"
+
+#~ msgid "New features:"
+#~ msgstr "Nye funksjoner:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Støtte for mørk stil"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "Dra og slipp forhåndsvisningsbilde fra lagringsdialogen"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Dra og slipp vindu fra hvor som helst"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "Vis detaljer for feil hvis de inntreffer"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Retting av småfeil"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Spill lukkerlyd når skjermavbildning utføres"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Fiks ekstra sort område på HiDIPI-skjermbilder"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Om Skjermbilde"

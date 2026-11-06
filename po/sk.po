@@ -1,0 +1,170 @@
+# Slovak translation for screenshot-tool
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# Martin Korpala <korpyk@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-07-10 19:16+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/screenshot/"
+"screenshot/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "Snímky obrazovky"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Zachytiť oblasť"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Zachytiť celú obrazovku"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Zachytiť aktívne okno"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Vytvoriť snímku obrazovky po stanovenom oneskorení"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Sekundy"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Zahrnúť kurzor do snímky obrazovky"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "Revidovať systémový text"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "Uložiť snímku obrazovky do schránky"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Nepodarilo sa zachytiť snímku obrazovky"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Obrázok neuložený"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Snímka obrazovky"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Uložiť obrázok ako…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Snímka obrazovky z %s"
+
+#: src/SaveDialog.vala:90
+msgid "Name"
+msgstr "Názov"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr "Typ súboru"
+
+#: src/SaveDialog.vala:138
+msgid "Folder"
+msgstr "Priečinok"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Vybrať priečinok snímok obrazovky…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr "Vybrať"
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "Skopírovať do schránky"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Uložiť"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr "Názov súboru nesmie byť prázdny"
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr "Názov súboru nesmie obsahovať „/“"
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Zosnímať celú obrazovku"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Zosnímať aktuálne okno"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Vybrať oblasť na zosnímanie"
+
+#~ msgid "Grab pointer:"
+#~ msgstr "Zosnímať kurzor:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "Zavrieť po uložení:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "Skryť text:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Oneskorenie v sekundách:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Vytvoriť snímku"
+
+#~ msgid "Close"
+#~ msgstr "Zatvoriť"
+
+#~ msgid "Format:"
+#~ msgstr "Formát:"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Nebolo nájdené žiadne aktívne okno"
+
+#~ msgid "Capture area:"
+#~ msgstr "Zachytávaná oblasť:"
+
+#~ msgid "Properties:"
+#~ msgstr "Vlastnosti:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Uložiť obrázky vašej obrazovky, alebo individuálnych okien."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella\n"
+#~ "  Lukáš Papík https://launchpad.net/~stereo839\n"
+#~ "  Martin Korpala https://launchpad.net/~korpyk\n"
+#~ "  Ľubomír Hlavko https://launchpad.net/~5lubo555"

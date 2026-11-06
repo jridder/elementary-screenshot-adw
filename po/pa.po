@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2021-07-28 06:29+0000\n"
+"Last-Translator: elSolus <tumbleweed@tuta.io>\n"
+"Language-Team: Punjabi <https://l10n.elementary.io/projects/screenshot/"
+"screenshot/pa/>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: src/Application.vala:21
+msgid "Screenshots"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਲੈਣ ਲਈ ਇਲਾਕਾ"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "ਸਾਰੀ ਸਕਰੀਨ ਦਾ ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "ਸਰਗਰਮ ਵਿੰਡੋ ਦਾ ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "ਦੱਸੀ ਗਈ ਦੇਰੀ ਬਾਅਦ ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "ਸਕਿੰਟ"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਵਿੱਚ ਪੁਆਇੰਟਰ ਵੀ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr "ਸਿਸਟਮ ਲਿਖਤ ਨੂੰ ਕਾਲਖ ਫੇਰ ਕੇ ਲੁਕਾ ਦਿਓ"
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਨੂੰ ਕਲਿਪਬੋਰਡ 'ਤੇ ਸਾਂਭੋ"
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਨਹੀਂ ਲਿਆ ਜਾ ਸਕਿਆ"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "ਤਸਵੀਰ ਸਾਂਭੀ ਨਹੀਂ ਗਈ"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "ਤਸਵੀਰ ਨੂੰ ਬਤੌਰ ਸਾਂਭੋ…"
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "%s ਨੂੰ ਲਿਆ ਗਿਆ ਸਕਰੀਨਸ਼ਾਟ"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "ਨਾਂ:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "ਫ਼ੋਲਡਰ:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਫ਼ੋਲਡਰ ਚੁਣੋ…"
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr "ਕਲਿਪਬੋਰਡ 'ਤੇ ਨਕਲ ਕਰੋ"
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "ਸਾਂਭੋ"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "ਸਾਰੀ ਸਕਰੀਨ ਦਾ ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#~ msgid "Grab the current window"
+#~ msgstr "ਚਲੰਤ ਵਿੰਡੋ ਦਾ ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#~ msgid "Select area to grab"
+#~ msgstr "ਸਕਰੀਨਸ਼ਾਟ ਲੈਣ ਲਈ ਇਲਾਕਾ ਚੁਣੋ"
+
+#~ msgid "Grab pointer:"
+#~ msgstr "ਪੁਆਇੰਟਰ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ:"
+
+#~ msgid "Close after saving:"
+#~ msgstr "ਸਾਂਭਣ ਤੋਂ ਬਾਅਦ ਬੰਦ ਕਰੋ:"
+
+#~ msgid "Conceal text:"
+#~ msgstr "ਲਿਖਤ ਲੁਕਾਓ:"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "ਦੇਰੀ ਸਕਿੰਟਾਂ ਵਿੱਚ:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "ਸਕਰੀਨਸ਼ਾਟ ਲਓ"
+
+#~ msgid "Close"
+#~ msgstr "ਬੰਦ ਕਰੋ"
+
+#~ msgid "Format:"
+#~ msgstr "ਫ਼ਾਰਮੈਟ:"

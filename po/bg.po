@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2016-07-28 21:44+0000\n"
+"Last-Translator: Fabio Zaramella <FFabio.96.X@Gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Application.vala:21
+#, fuzzy
+msgid "Screenshots"
+msgstr "Снимка"
+
+#: src/Application.vala:33
+msgid "Capture area"
+msgstr "Област на снимане"
+
+#: src/Application.vala:34
+msgid "Capture the whole screen"
+msgstr "Снимане на целия екран"
+
+#: src/Application.vala:35
+msgid "Capture active window"
+msgstr "Снимане на активния прозорец"
+
+#: src/Application.vala:36
+msgid "Take screenshot after specified delay"
+msgstr "Снимане след определено забавяне"
+
+#: src/Application.vala:37
+msgid "Seconds"
+msgstr "Секунди"
+
+#: src/Application.vala:38
+msgid "Include the pointer with the screenshot"
+msgstr "Включване на показалеца в снимката"
+
+#: src/Application.vala:39
+msgid "Redact system text"
+msgstr ""
+
+#: src/Application.vala:40
+msgid "Save screenshot to clipboard"
+msgstr ""
+
+#: src/Application.vala:208
+msgid "Could not capture screenshot"
+msgstr "Неуспешно снимане"
+
+#: src/Application.vala:209
+msgid "Image not saved"
+msgstr "Изображението не беше запазено"
+
+#: src/SaveDialog.vala:38
+msgid "Screenshot"
+msgstr "Снимка"
+
+#: src/SaveDialog.vala:79
+msgid "Save Image as…"
+msgstr "Запазване на изображението като..."
+
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/SaveDialog.vala:84
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Снимка на екран от %s"
+
+#: src/SaveDialog.vala:90
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Име:"
+
+#: src/SaveDialog.vala:115
+msgid "File Type"
+msgstr ""
+
+#: src/SaveDialog.vala:138
+#, fuzzy
+#| msgid "Folder:"
+msgid "Folder"
+msgstr "Папка:"
+
+#: src/SaveDialog.vala:163
+msgid "Select Screenshots Folder…"
+msgstr "Избиране на папка за снимки..."
+
+#: src/SaveDialog.vala:166
+msgid "Select"
+msgstr ""
+
+#: src/SaveDialog.vala:185
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: src/SaveDialog.vala:187
+msgid "Cancel"
+msgstr "Отказ"
+
+#: src/SaveDialog.vala:189
+msgid "Save"
+msgstr "Запазване"
+
+#: src/SaveDialog.vala:195
+msgid "Filename can't be blank"
+msgstr ""
+
+#: src/SaveDialog.vala:198
+msgid "Filename can't contain “/”"
+msgstr ""
+
+#~ msgid "Grab the whole screen"
+#~ msgstr "Снимане на целия екран"
+
+#~ msgid "Grab the current window"
+#~ msgstr "Снимане на текущия прозорец"
+
+#~ msgid "Select area to grab"
+#~ msgstr "Избиране на зона за снимане"
+
+#~ msgid "Delay in seconds:"
+#~ msgstr "Забавяне в секунди:"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Снимане"
+
+#~ msgid "Format:"
+#~ msgstr "Формат:"
+
+#~ msgid "Couldn't find an active window"
+#~ msgstr "Не е намерен активен прозорец"
+
+#~ msgid "Capture area:"
+#~ msgstr "Област на снимане:"
+
+#~ msgid "Properties:"
+#~ msgstr "Свойства:"
+
+#~ msgid "Save images of your screen or individual windows."
+#~ msgstr "Запазване на изображения на екрана или самостоятелни прозорци."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Fabio Zaramella https://launchpad.net/~fabiozaramella\n"
+#~ "  Адмирал АнимЕ https://launchpad.net/~aeternus-arcis"

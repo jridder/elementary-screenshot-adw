@@ -1,0 +1,139 @@
+# Dutch translation for screenshot-tool
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2021-11-14 13:37+0000\n"
+"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/screenshot/extra/"
+"nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:43+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Schermafdruk"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Schermafbeeldingen opslaan"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Simpel gereedschap voor het nemen van schermafdrukken. Fotografeer het "
+"volledige scherm, geselecteerde gebieden, openstaande vensters of maak "
+"getimede opnames."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+#, fuzzy
+#| msgid "Minor bug fixes"
+msgid "Minor updates:"
+msgstr "Kleine bugfixes"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Vertaalupdates"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Momentopname;Schermafdruk;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Afdruk van het volledige scherm"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Afdruk van het huidige venster"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Afdruk van een geselecteerd gebied"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Kleine visuele problemen opgelost met selectie items"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Sluit door op de Escape toets te drukken"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Wisseling van lettertype om vastzitten te voorkomen in sommige situaties"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Houd altijd rekening met de ingestelde vertraging"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "De minimum time-out verhoogd naar 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Probleem opgelost met de Alt+F4 sneltoets"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Iconen staan nu voor de verschillende opnamegebied mogelijkheden"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Kleine bugfixes"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Probleem met het gedrag van de ESC toets opgelost"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "De schaalfactor wordt toegevoegd aan de bestandsnaam"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Nieuwe standaard map om schermafbeeldingen in op te slaan"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr ""
+#~ "Onthoud de positie van het hoofdvenster voor het terugkomende venster"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr ""
+#~ "Speel het geluid van een sluiter als een schermafbeelding genomen wordt"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Verhelp extra zwarte randen op schermafdrukken met hoge DPI"
+
+#~ msgid "io.elementary.screenshot"
+#~ msgstr "io.elementary.screenshot"
+
+#~ msgid "accessories-screenshot"
+#~ msgstr "accessories-screenshot"
+
+#~ msgid "About Screenshot"
+#~ msgstr "Over Schermafdruk"

@@ -1,0 +1,144 @@
+# Slovak translation for screenshot-tool
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the screenshot-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenshot-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 17:47+0000\n"
+"PO-Revision-Date: 2024-08-19 18:16+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/screenshot/extra/"
+"sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:44+0000\n"
+
+#: data/screenshot.metainfo.xml.in:10 data/screenshot.desktop.in:4
+msgid "Screenshot"
+msgstr "Snímka obrazovky"
+
+#: data/screenshot.metainfo.xml.in:11 data/screenshot.desktop.in:5
+msgid "Save images of the screen"
+msgstr "Ukladajte snímky obrazovky"
+
+#: data/screenshot.metainfo.xml.in:13
+msgid ""
+"A simple screenshot tool. Capture whole screen shots, selected area shots, "
+"current window shots, and timed shots."
+msgstr ""
+"Jednoduchý nástroj na snímanie obrazovky. Zachyťte snímku celej obrazovky, "
+"vybranej oblasti, aktuálneho okna aj časované snímky."
+
+#: data/screenshot.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/screenshot.metainfo.xml.in:57 data/screenshot.metainfo.xml.in:67
+#: data/screenshot.metainfo.xml.in:76 data/screenshot.metainfo.xml.in:85
+#: data/screenshot.metainfo.xml.in:95
+msgid "Minor updates:"
+msgstr "Opravy menších chýb:"
+
+#: data/screenshot.metainfo.xml.in:59
+msgid "The window is no longer always on top or stuck on every desktop"
+msgstr ""
+
+#: data/screenshot.metainfo.xml.in:60 data/screenshot.metainfo.xml.in:69
+#: data/screenshot.metainfo.xml.in:78 data/screenshot.metainfo.xml.in:88
+msgid "Updated translations"
+msgstr "Aktualizované preklady"
+
+#: data/screenshot.metainfo.xml.in:87
+msgid "Update elementary runtime to 6.1"
+msgstr "Aktualizácia elementary runtime na verziu 6.1"
+
+#: data/screenshot.metainfo.xml.in:97
+msgid "Translation updates"
+msgstr "Aktualizácia prekladov"
+
+#: data/screenshot.desktop.in:10
+msgid "Snapshot;Screenshot;"
+msgstr "Momentka;Snímka obrazovky;Screenshot;"
+
+#: data/screenshot.desktop.in:14
+msgid "Screenshot of the Whole Screen"
+msgstr "Snímka celej obrazovky"
+
+#: data/screenshot.desktop.in:18
+msgid "Screenshot of the Current Window"
+msgstr "Snímka aktuálneho okna"
+
+#: data/screenshot.desktop.in:22
+msgid "Screenshot of a Selected Area"
+msgstr "Snímka vybranej oblasti"
+
+#~ msgid "New features:"
+#~ msgstr "Nové funkcie:"
+
+#~ msgid "Support the dark style"
+#~ msgstr "Podpora tmavého režimu"
+
+#~ msgid "Drag and Drop the preview image from the save dialog"
+#~ msgstr "Potiahnite a uvoľnite obrázok ukážky kamkoľvek z dialógu ukladania"
+
+#~ msgid "Drag to move the window from anywhere"
+#~ msgstr "Potiahnutím posuňte okno odkiaľkoľvek"
+
+#~ msgid "Show details for errors if they occur"
+#~ msgstr "Zobrazenie detailov chýb, ak nejaké nastanú"
+
+#~ msgid "Fix minor visual issues with selection items"
+#~ msgstr "Opravené drobné vizuálne problémy s položkami výberu"
+
+#~ msgid "Close when pressing the Escape key"
+#~ msgstr "Zatvoriť pri stlačení klávesy Esc"
+
+#~ msgid ""
+#~ "Revert from redacted font as soon as possible to avoid getting stuck in "
+#~ "some situations"
+#~ msgstr ""
+#~ "Vrátiť späť z revidovaného písma čo najskôr, aby sa zabránilo stuhnutiu v "
+#~ "niektorých situáciách"
+
+#~ msgid "Always respect delay setting"
+#~ msgstr "Vždy rešpektovať nastavenie oneskorenia"
+
+#~ msgid "Increase minimum timeout to 300"
+#~ msgstr "Zvýšený minimálny časový limit na 300"
+
+#~ msgid "Fix Alt+F4 key behavior"
+#~ msgstr "Oprava chovania klávesovej skratky Alt+F4"
+
+#~ msgid "Icons now represent the capture area options"
+#~ msgstr "Ikonky teraz reprezentujú možnosti výberu oblasti na zachytenie"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Oprava menších chýb"
+
+#~ msgid "Fix ESC key behavior"
+#~ msgstr "Oprava chovania klávesy Esc"
+
+#~ msgid "Append scaling factor to filename"
+#~ msgstr "Pridávať mierku zobrazenia k názvu súboru"
+
+#~ msgid "New default folder to save screenshots"
+#~ msgstr "Nový predvolený priečinok na ukladanie snímok obrazovky"
+
+#~ msgid "Remember main window position for reappearing window"
+#~ msgstr "Zapamätať si pozíciu hlavného okna pre znovu sa zobrazujúce okno"
+
+#~ msgid "Play shutter sound when a screenshot is taken"
+#~ msgstr "Pri vytváraní snímky obrazovky prehrať zvuk uzávierky"
+
+#~ msgid "Fix extra black area on HiDPI screenshots"
+#~ msgstr "Opravená nadbytočná čierna oblasť na HiDPI snímkach"
+
+#~ msgid "About Screenshot"
+#~ msgstr "O programe Snímka obrazovky"
