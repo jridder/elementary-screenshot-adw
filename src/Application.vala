@@ -17,7 +17,7 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class Screenshot.Application : Gtk.Application {
+public class Screenshot.Application : Adw.Application {
     public const string SAVE_FOLDER = _("Screenshots");
 
     private static bool area = false;
@@ -68,17 +68,6 @@ public class Screenshot.Application : Gtk.Application {
 
     protected override void startup () {
         base.startup ();
-
-        Granite.init ();
-
-        var granite_settings = Granite.Settings.get_default ();
-        var gtk_settings = Gtk.Settings.get_default ();
-
-        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == DARK;
-
-        granite_settings.notify["prefers-color-scheme"].connect (() => {
-            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == DARK;
-        });
 
         var quit_action = new SimpleAction ("quit", null);
         quit_action.activate.connect (() => {
@@ -204,15 +193,55 @@ public class Screenshot.Application : Gtk.Application {
     }
 
     private void show_error_dialog (string error_message) {
-        var dialog = new Granite.MessageDialog.with_image_from_icon_name (
-             _("Could not capture screenshot"),
-             _("Image not saved"),
-             "dialog-error",
-             Gtk.ButtonsType.CLOSE
-        );
-        dialog.set_application (this);
-        dialog.show_error_details (error_message);
-        dialog.response.connect (dialog.destroy);
+        var details = new Gtk.Label (error_message) {
+            selectable = true,
+            wrap = true,
+            wrap_mode = Pango.WrapMode.WORD_CHAR,
+            xalign = 0
+        };
+        details.add_css_class ("monospace");
+
+        var expander = new Gtk.Expander (_("Details")) {
+            child = details
+        };
+
+        var status = new Adw.StatusPage () {
+            icon_name = "dialog-error-symbolic",
+            title = _("Could not capture screenshot"),
+            description = _("Image not saved"),
+            child = expander
+        };
+        status.add_css_class ("compact");
+
+        var close_button = new Gtk.Button.with_label (_("Close")) {
+            halign = Gtk.Align.CENTER,
+            margin_bottom = 18
+        };
+        close_button.add_css_class ("pill");
+
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        box.append (status);
+        box.append (close_button);
+
+        var header = new Adw.HeaderBar () {
+            show_title = false
+        };
+
+        var toolbar_view = new Adw.ToolbarView () {
+            content = box
+        };
+        toolbar_view.add_top_bar (header);
+
+        var dialog = new Adw.Window () {
+            application = this,
+            content = toolbar_view,
+            default_width = 400,
+            modal = true,
+            resizable = false,
+            title = _("Could not capture screenshot")
+        };
+
+        close_button.clicked.connect (() => dialog.close ());
         dialog.present ();
     }
 

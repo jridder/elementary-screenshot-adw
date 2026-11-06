@@ -9,7 +9,6 @@ i18n = import('i18n')
 
 add_global_arguments(
     '-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()),
-    '-DHANDY_USE_UNSTABLE_API',
     language:'c'
 )
 
@@ -42,7 +41,7 @@ executable(
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
         dependency('gtk4'),
-        dependency('granite-7', version: '>=7.0.0'),
+        dependency('libadwaita-1', version: '>=1.4'),
         dependency('libportal'),
         meson.get_compiler('vala').find_library('posix'),
     ],
